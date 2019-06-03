@@ -5,7 +5,7 @@
   "homepage": "https://github.com/Kontenty/react-stopwatch",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html -d build",
     "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
