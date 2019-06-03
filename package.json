@@ -2,7 +2,7 @@
   "name": "react-stopwatch",
   "version": "0.1.0",
   "description": "simple stopwatch with react",
-  "homepage": "https://github.com/Kontenty/react-stopwatch",
+  "homepage": "https://kontenty.github.io/react-stopwatch/",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html -d build",
