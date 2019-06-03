@@ -1,10 +1,12 @@
 {
-  "name": "timer-react",
+  "name": "react-stopwatch",
   "version": "0.1.0",
-  "description": "",
+  "description": "simple stopwatch with react",
+  "homepage": "https://github.com/Kontenty/react-stopwatch",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
   "dependencies": {
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-preset-nano-react-app": "^0.1.0",
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.11.0"
   },
   "babel": {
